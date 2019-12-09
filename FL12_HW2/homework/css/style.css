@@ -1,8 +1,4 @@
-/*
 
-write your code here
-
-*/
 @media print {
     .tm-sidebar,
     .tm-team-img,
@@ -10,19 +6,61 @@ write your code here
     .boxes.gallery-container,
     .carousel-indicators,
     .img-contact-us,
-    .img-fluid
+    .img-fluid{
+        display: none;
+    }
+
     #contact {
         display: none;
     }
-    
-    body {
+
+    body,
+    .container,
+    .tm-main-content,
+    .tm-content-box,
+    .padding-medium,
+    .carousel,
+    footer.tm-footer {
         padding: 0;
         margin: 0;
         text-align: center;
-        display: list-item;
-
+        max-width: 100%;
     }
 
-    /*section { page-break-before: always;}*/
-    
-    /*body { font-size: 15px; }*/ }
+    footer.tm-footer p:only-of-type {
+        margin-bottom: 0;
+    }
+
+    .tm-content-box h2 {
+        background-color: transparent;
+        color: lightskyblue;
+        font-weight: 200;
+        text-transform: uppercase;
+        padding-top: 5px;
+    }
+
+    .heading ol {
+        list-style-type: none;
+        text-align: justify;
+    }
+
+    ol li:nth-of-type(2n+1) {
+        position: relative;
+        text-align: right;
+        right: 25%;
+    }
+
+    ol li:nth-of-type(2n) {
+        position: relative;
+        left: 20%;
+    }
+    .tm-section-description {
+        line-height: normal;
+    }
+    .blocks p:nth-of-type(2) {
+        text-align: center;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        font-style: italic;
+    }
+}
