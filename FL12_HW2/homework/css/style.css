@@ -54,13 +54,35 @@
         position: relative;
         left: 20%;
     }
+
     .tm-section-description {
         line-height: normal;
     }
+
     .blocks p:nth-of-type(2) {
+        font-style: italic;
         text-align: center;
         letter-spacing: 5px;
         word-spacing: 10px;
-        font-style: italic;
     }
+}
+
+@media screen {
+    .tm-nav-item-link:hover {
+      color: #fff;
+      background-color: lightskyblue;
+    }
+  
+    .tm-banner {
+      border: 30px solid;
+      border-image: linear-gradient(to right, lightskyblue, burlywood);
+      border-image-slice: 1;
+      padding: 0;
+      margin: 0;
+    }
+    #home {
+        box-shadow: 0 0 12px black;
+
+    }
+    
 }
