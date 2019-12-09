@@ -3,3 +3,26 @@
 write your code here
 
 */
+@media print {
+    .tm-sidebar,
+    .tm-team-img,
+    .boxes,
+    .boxes.gallery-container,
+    .carousel-indicators,
+    .img-contact-us,
+    .img-fluid
+    #contact {
+        display: none;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        display: list-item;
+
+    }
+
+    /*section { page-break-before: always;}*/
+    
+    /*body { font-size: 15px; }*/ }
