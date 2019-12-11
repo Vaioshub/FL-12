@@ -1,1 +1,25 @@
-// Write your styles here
+.header {
+    background-image: url($headerImage);
+    border-bottom-right-radius: 50em 17em;
+    background-size: cover;
+    // background-repeat: no-repeat;
+    // box-sizing: ;
+    width: 100%;
+    height: 42em;
+    background-position-y: 58em;
+
+
+    }
+.landing-logo {
+    position: relative;
+    top: .4em; left: 11em;
+    
+}
+
+body {
+    background: $contentBackground;
+}
+main {
+      margin: 0 auto;
+      width: 960px;
+}
