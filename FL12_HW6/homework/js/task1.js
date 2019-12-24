@@ -6,7 +6,7 @@ if (isNaN(a) || isNaN(b) || isNaN(c)) {
     console.log("Invalid input data");
 } else {
     let discriminant = b * b - 4 * a * c;
-    console.log("disc:" + discriminant);
+    console.log("Discriminant is:" + discriminant);
     if (discriminant < 0) {
         console.log("no solution");
     } else if (discriminant === 0) {
