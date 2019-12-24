@@ -2,7 +2,6 @@ let a, b, c;
 a = +prompt("Enter first value for the quadratic equation a");
 b = +prompt("Enter second value for the quadratic equation b");
 c = +prompt("Enter third value for the quadratic equation c");
-
 if (isNaN(a) || isNaN(b) || isNaN(c)) {
     console.log("Invalid input data");
 } else {
